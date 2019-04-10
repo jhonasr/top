@@ -1,0 +1,25 @@
+
+.container {
+    margin: 5% auto;
+    font-family: 'Acme', sans-serif;
+    background-image: url(../images/air.jpg);
+    background-size: 100%;
+    width: 1024px;
+    height: 600px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pic{
+    margin: 60px auto auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(252, 252, 253);
+    background-image: url(../images/me.png);
+    background-size: cover;
+}
